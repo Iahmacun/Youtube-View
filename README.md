@@ -72,7 +72,7 @@ bot.run_bot(
 ✅ Başarılı görüntülemeler: 45
 ❌ Başarısız görüntülemeler: 5
 📈 Başarı Oranı: 90.0%
-
+```bash
 🗂️ Dosya Yapısı
 youtube-view-bot/
 ├── 📄 youtube_bot.py          # Ana bot dosyası
@@ -80,6 +80,7 @@ youtube-view-bot/
 ├── 🌐 proxies.txt            # Proxy listesi
 ├── ✅ working_proxies.txt    # Çalışan proxy'ler
 └── 📋 requirements.txt       # Gereksinimler
+```
 ```bash
 
 ⚙️ Gelişmiş Ayarlar
