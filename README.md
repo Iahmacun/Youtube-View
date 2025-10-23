@@ -5,37 +5,38 @@ Akademik projeler ve tez çalışmaları için geliştirilmiş Python tabanlı Y
 ![](https://img.shields.io/badge/Selenium-Automation-green)
 ![](https://img.shields.io/badge/License-MIT-yellow)
 
-✨ Özellikler
-🤖 Akıllı Otomasyon - İnsan benzeri davranış simülasyonu
+# ✨ **Özellikler**
 
-🔒 Proxy Desteği - Çoklu IP ile güvenli bağlantı
+🤖 **Akıllı Otomasyon** — _İnsan benzeri davranışlar sergileyerek doğal kullanım simülasyonu sağlar_  
+🔒 **Proxy Desteği** — _Çoklu IP kullanarak güvenli bağlantı sağlar_  
+🛡️ **Gizlilik Odaklı** — _Stealth mod sayesinde tespit riski en aza indirilmiştir_  
+📊 **Detaylı İstatistikler** — _Gerçek zamanlı performans takibi sunar_  
+⚡ **Otomatik Yönetim** — _ChromeDriver otomatik güncellenir_  
+🔄 **Hata Toleranslı** — _Bağlantı sorunlarında otomatik kurtarma sağlar_
 
-🛡️ Gizlilik Odaklı - Stealth mod ile tespit riski azaltılmıştır
+---
 
-📊 Detaylı İstatistik - Gerçek zamanlı performans takibi
+## 🚀 **Hızlı Başlangıç**
 
-⚡ Otomatik Yönetim - ChromeDriver otomatik güncelleme
-
-🔄 Hata Toleranslı - Bağlantı sorunlarında otomatik kurtarma
-
-🚀 Hızlı Başlangıç
-Gereksinimler
-bash
+### ⚙️ Gereksinimler
+```bash
 pip install selenium fake-useragent webdriver-manager requests
-Temel Kullanım
-bash
-python youtube_bot.py
-📖 Kullanım Kılavuzu
-1. Proxy Ayarları
-proxies.txt dosyası oluşturun:
 
-text
+▶️ Temel Kullanım
+python youtube_bot.py
+
+
+📖 Kullanım Kılavuzu
+🔧 1. Proxy Ayarları
+
+proxies.txt adlı dosyayı oluşturun:
+
 http://proxy1:8080
 http://kullanici:sifre@proxy2:3128
 https://guvenli-proxy:443
 45.76.102.33:3128
-2. Bot'u Çalıştırma
-python
+
+▶️ 2. Bot'u Çalıştırma
 from youtube_bot import YouTubeViewBot
 
 bot = YouTubeViewBot()
@@ -46,17 +47,17 @@ bot.run_bot(
     max_wait=60,
     use_proxies=True
 )
-3. Interaktif Kullanım
-text
+
+💬 3. Etkileşimli Kullanım
 🎬 YOUTUBE VIEW BOT
 ========================================
 📹 YouTube URL: https://youtube.com/watch?v=...
-🎯 Görüntüleme sayısı: 50
-⏱️ Min bekleme (saniye): 30
-⏱️ Max bekleme (saniye): 60
+🎯 Görüntüleme Sayısı: 50
+⏱️ Minimum Bekleme (sn): 30
+⏱️ Maksimum Bekleme (sn): 60
 🔒 Proxy kullanılsın mı? (e/h): e
+
 📊 Örnek Çıktı
-text
 🚀 YouTube View Bot Başlatılıyor...
 🎯 Hedef: 50 görüntüleme
 
@@ -71,77 +72,66 @@ text
 ✅ Başarılı görüntülemeler: 45
 ❌ Başarısız görüntülemeler: 5
 📈 Başarı Oranı: 90.0%
+
 🗂️ Dosya Yapısı
-text
 youtube-view-bot/
 ├── 📄 youtube_bot.py          # Ana bot dosyası
 ├── 🔧 proxy_tester.py         # Proxy test aracı
 ├── 🌐 proxies.txt            # Proxy listesi
 ├── ✅ working_proxies.txt    # Çalışan proxy'ler
 └── 📋 requirements.txt       # Gereksinimler
-⚙️ Gelişmiş Özellikler
-Özelleştirilebilir Ayarlar
-python
-# Video izleme süreleri (saniye)
+
+⚙️ Gelişmiş Ayarlar
+# Video izleme süresi (saniye)
 WATCH_TIME_MIN = 25
 WATCH_TIME_MAX = 70
 
-# Session arası bekleme (saniye)
+# Oturum arası bekleme süresi (saniye)
 WAIT_TIME_MIN = 30
 WAIT_TIME_MAX = 90
 
-# İnsan benzeri davranış ayarları
+# İnsan benzeri davranışlar
 SCROLL_AMOUNTS = [100, 200, 300, 150]
 INTERACTION_CHANCE = 0.3  # %30 etkileşim şansı
-Proxy Test Aracı
+
+🌐 Proxy Test Aracı
+
 Proxy'lerinizi test etmek için:
 
-bash
 python proxy_tester.py
+
 ❓ Sıkça Sorulan Sorular
-🤔 Bot YouTube tarafından tespit edilir mi?
-Bot, insan benzeri davranışlar sergileyerek ve proxy kullanarak tespit edilme riskini minimize eder, ancak %100 garanti verilemez.
+
+🤔 YouTube botu tespit eder mi?
+Bot, insan benzeri davranışlar sergileyip proxy kullandığı için tespit riski düşüktür; ancak %100 garanti verilemez.
 
 🎯 Kaç görüntüleme güvenli?
-Akademik çalışmalar için günde 50-100 görüntüleme makul kabul edilir. Büyük ölçekli kullanımlardan kaçının.
+Eğitim veya test amaçlı günde 50–100 görüntüleme önerilir.
 
-🔧 Proxy kullanmak zorunlu mu?
-Hayır, proxy kullanmadan da çalışabilir ancak proxy kullanımı güvenliği artırır.
+🔧 Proxy zorunlu mu?
+Hayır, ama proxy kullanımı gizlilik ve güvenliği artırır.
 
-⚠️ Önemli Uyarılar
-📢 DİKKAT: Bu proje sadece eğitim ve akademik araştırma amaçlıdır.
+⚠️ Önemli Uyarı
 
-YouTube'un Hizmet Şartları'nı ihlal edebilir
+📢 UYARI:
+Bu proje yalnızca eğitim ve akademik araştırma amaçlıdır.
+Kullanımı, YouTube Hizmet Şartlarını ihlal edebilir.
 
-Sorumluluk kullanıcıya aittir
-
-Limitli kullanım önerilir
-
-Aşırı kullanım hesap ban'ına sebep olabilir
-
-Sadece kendi videolarınız üzerinde test yapın
+Geliştirici sorumluluk kabul etmez.
+Lütfen sadece kendi videolarınızda test edin ve ölçülü şekilde kullanın.
 
 🐛 Sorun Giderme
 Sorun	Çözüm
-ChromeDriver hatası	webdriver-manager otomatik çözer
-Proxy bağlantı hatası	Proxy'leri test edin veya proxy'siz çalıştırın
-SSL hataları	Kod otomatik olarak yönetir
+ChromeDriver hatası	webdriver-manager otomatik olarak çözer
+Proxy bağlantı hatası	Proxy’leri test edin veya devre dışı bırakın
+SSL hataları	Bot tarafından otomatik yönetilir
 Zaman aşımı	İnternet bağlantınızı kontrol edin
-📄 Lisans
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için LICENSE dosyasına bakın.
 
-🤝 Katkıda Bulunma
-Fork edin
-
-Feature branch oluşturun (git checkout -b feature/amazing-feature)
-
-Commit edin (git commit -m 'Add amazing feature')
-
-Push edin (git push origin feature/amazing-feature)
-
-Pull Request oluşturun
 
 <div align="center">
-⚠️ UYARI: Bu bot sadece eğitim ve akademik araştırma amaçlıdır. Etik kullanım kullanıcının sorumluluğundadır.
 
-</div>
+⚠️ UYARI:
+Bu bot yalnızca eğitim ve araştırma amaçlıdır.
+Etik ve sorumlu kullanım tamamen kullanıcının sorumluluğundadır.
+
+</div> ```
