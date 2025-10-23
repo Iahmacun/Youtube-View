@@ -1,4 +1,5 @@
-🎬 YouTube View Bot
+🎬 YOUTUBE VIEW BOT
+
 Akademik projeler ve tez çalışmaları için geliştirilmiş Python tabanlı YouTube görüntüleme botu
 
 ![](https://img.shields.io/badge/Python-3.8%252B-blue)
@@ -51,7 +52,6 @@ bot.run_bot(
 ```
 
 💬 3. Etkileşimli Kullanım
-🎬 YOUTUBE VIEW BOT
 ========================================
 📹 YouTube URL: https://youtube.com/watch?v=...
 🎯 Görüntüleme Sayısı: 50
@@ -82,6 +82,7 @@ youtube-view-bot/
 ├── 🌐 proxies.txt            # Proxy listesi
 ├── ✅ working_proxies.txt    # Çalışan proxy'ler
 └── 📋 requirements.txt       # Gereksinimler
+```bash
 
 ⚙️ Gelişmiş Ayarlar
 # Video izleme süresi (saniye)
@@ -95,7 +96,7 @@ WAIT_TIME_MAX = 90
 # İnsan benzeri davranışlar
 SCROLL_AMOUNTS = [100, 200, 300, 150]
 INTERACTION_CHANCE = 0.3  # %30 etkileşim şansı
-
+```
 🌐 Proxy Test Aracı
 
 Proxy'lerinizi test etmek için:
@@ -112,6 +113,7 @@ Eğitim veya test amaçlı günde 50–100 görüntüleme önerilir.
 
 🔧 Proxy zorunlu mu?
 Hayır, ama proxy kullanımı gizlilik ve güvenliği artırır.
+<div align="center">
 
 ⚠️ Önemli Uyarı
 
@@ -129,11 +131,5 @@ Proxy bağlantı hatası	Proxy’leri test edin veya devre dışı bırakın
 SSL hataları	Bot tarafından otomatik yönetilir
 Zaman aşımı	İnternet bağlantınızı kontrol edin
 
+</div> 
 
-<div align="center">
-
-⚠️ UYARI:
-Bu bot yalnızca eğitim ve araştırma amaçlıdır.
-Etik ve sorumlu kullanım tamamen kullanıcının sorumluluğundadır.
-
-</div> ```
