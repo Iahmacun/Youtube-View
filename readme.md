@@ -72,7 +72,7 @@ bot.run_bot(
 ✅ Successful views: 45
 ❌ Failed views: 5
 📈 Success Rate: 90.0%
-
+```bash
 🗂️ File Structure
 youtube-view-bot/
 ├── 📄 youtube_bot.py # Main bot file
@@ -80,7 +80,7 @@ youtube-view-bot/
 ├── 🌐 proxies.txt # Proxy list
 ├── ✅ working_proxies.txt # Working proxies
 └── 📋 requirements.txt # Dependencies
-
+```
 ```bash
 ⚙️ Advanced Settings
 # Video watch duration (seconds)
