@@ -21,11 +21,12 @@ Akademik projeler ve tez çalışmaları için geliştirilmiş Python tabanlı Y
 ### ⚙️ Gereksinimler
 ```bash
 pip install selenium fake-useragent webdriver-manager requests
-
+```
+```bash
 ▶️ Temel Kullanım
 python youtube_bot.py
-
-
+```
+```bash
 📖 Kullanım Kılavuzu
 🔧 1. Proxy Ayarları
 
@@ -47,6 +48,7 @@ bot.run_bot(
     max_wait=60,
     use_proxies=True
 )
+```
 
 💬 3. Etkileşimli Kullanım
 🎬 YOUTUBE VIEW BOT
