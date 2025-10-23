@@ -1,9 +1,9 @@
 🎬 YouTube View Bot
 Akademik projeler ve tez çalışmaları için geliştirilmiş Python tabanlı YouTube görüntüleme botu
 
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/Selenium-Automation-green
-https://img.shields.io/badge/License-MIT-yellow
+[](https://img.shields.io/badge/Python-3.8%252B-blue)
+[](https://img.shields.io/badge/Selenium-Automation-green)
+[](https://img.shields.io/badge/License-MIT-yellow)
 
 ✨ Özellikler
 🤖 Akıllı Otomasyon - İnsan benzeri davranış simülasyonu
