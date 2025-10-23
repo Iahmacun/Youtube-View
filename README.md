@@ -1,4 +1,3 @@
-🎬 YOUTUBE VIEW BOT
 
 Akademik projeler ve tez çalışmaları için geliştirilmiş Python tabanlı YouTube görüntüleme botu
 
