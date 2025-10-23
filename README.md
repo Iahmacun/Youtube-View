@@ -1,5 +1,4 @@
 
-Akademik projeler ve tez çalışmaları için geliştirilmiş Python tabanlı YouTube görüntüleme botu
 
 ![](https://img.shields.io/badge/Python-3.8%252B-blue)
 ![](https://img.shields.io/badge/Selenium-Automation-green)
