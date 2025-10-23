@@ -46,11 +46,11 @@ bot.run_bot(
     max_wait=60,
     use_proxies=True
 )
+```
 
 💬 3. Interactive Mode
 
 📹 YouTube URL: https://youtube.com/watch?v=
-...
 🎯 View Count: 50
 ⏱️ Minimum Wait (sec): 30
 ⏱️ Maximum Wait (sec): 60
